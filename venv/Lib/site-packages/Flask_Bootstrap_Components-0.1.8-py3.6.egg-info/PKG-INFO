@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: Flask-Bootstrap-Components
+Version: 0.1.8
+Summary: Collection of HTML generation helpers for Flask with Bootstrap 4
+Home-page: https://github.com/adh/flask-bootstrap-components
+Author: Ales Hakl
+Author-email: ales@hakl.net
+License: MIT
+Description: UNKNOWN
+Keywords: flask bootstrap
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

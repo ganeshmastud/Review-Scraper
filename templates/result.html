@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+<!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="mt-5">
+        <div class="header"  style="text-align:center" ><h1>Reviews</h1></div>
+          <table class=" mt-5 table table-hover table-xs table-bordered ">
+          <thead class="thead-dark">
+           <tr>
+             <th>Product</th>
+             <th>Name</th>
+             <th>Rating</th>
+             <th>Comment Heading</th>
+             <th>Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+                 {% for review in reviews %}
+              <tr>
+                 <td>{{review['Product']}}</td>
+                 <td>{{review['name']}}</td>
+                 <td>{{review['rating']}}</td>
+                 <td>{{review['commentHead']}}</td>
+                 <td>{{review['custComment']}} </td>
+              </tr>
+                 {% endfor %}
+          </tbody>
+        </table>
+
+        </div>
+    </div>
+</body>
+
+</html>

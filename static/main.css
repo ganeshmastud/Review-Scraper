@@ -1,0 +1,28 @@
+body,html{
+    background-color: 	#505050;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    color:#cccccc;
+
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+
